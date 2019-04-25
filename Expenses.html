@@ -10,8 +10,11 @@
 <body>
 
     <div class="header">
-        <button id="productButton" type="text">PRODUCTS</button>
-        <button id="expencesButton" type="text">EXPENCES</button>
+        <div class="header_left">
+                <button class="header_button green_button" type="text">PRODUCTS</button>
+                <button id="expencesButton" type="text">EXPENCES</button>
+        </div>
+        
         <div class="header-right">
             <img src="./Tesla3.png" class="avatar">
             <p class="userName">Cal Galot</p>
@@ -22,27 +25,40 @@
         <h2>Expenses</h2>
     </div>
     <div class="tabs">
-            <button class="active" type="text">MONTHLY</button>
-            <button class="inactive" type="text">YEARLY</button>
-           
-    </div>
-    <div>
-    <p>Choose Month</p>
-    <select class="selectBox">
-            <option value="Januari">Januari</option>
-            <option value="Fabruari">Februari</option>
-            <option value="Mart">Mart</option>
-            <option value="April">April</option>
-            <option value="Mart">Mart</option>
-            <option value="April">April</option>
-            <option value="Maj">Maj</option>
-            <option value="Juni">Juni</option>
-            <option value="Juli">Juli</option>
-            <option value="Avgust">Avgust</option>
-            <option value="Septemvri">Septemvri</option>
-            <option value="Oktomvri">Oktomvri</option>
-            <option value="Noemvri">Noemvri</option>
-            <option value="Dekemvri">Dekemvri</option>
-          </select>
-          </div>
+        <div>
+                <button class="active" type="text">MONTHLY</button>
+                <button class="inactive" type="text">YEARLY</button>
+                <span>Choose Month</span>
+                <select class="selectBox">
+                        <option value="Januari">Januari</option>
+                        <option value="Fabruari">Februari</option>
+                        <option value="Mart">Mart</option>
+                        <option value="April">April</option>
+                        <option value="Mart">Mart</option>
+                        <option value="April">April</option>
+                        <option value="Maj">Maj</option>
+                        <option value="Juni">Juni</option>
+                        <option value="Juli">Juli</option>
+                        <option value="Avgust">Avgust</option>
+                        <option value="Septemvri">Septemvri</option>
+                        <option value="Oktomvri">Oktomvri</option>
+                        <option value="Noemvri">Noemvri</option>
+                        <option value="Dekemvri">Dekemvri</option>
+                      </select>
+                      </div>
+        </div>
+         
+    <div class="table">
+              <tr class="">
+                  <th>Product Name</th>
+                  <th>Product Type</th>
+                  <th>Product Description</th>
+                  <th>Purchase Date</th>
+                  <th>Product Price</th>
+              </tr>
+
+
+        </div>
+  
+    
     </body>
