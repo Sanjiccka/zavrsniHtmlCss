@@ -4,6 +4,7 @@ body {
 }
 
 .label {
+    font-family: 'Roboto' sans-serif;
     font-size: 18px;
     color: #8d8d8d;
     height:50px;
@@ -34,12 +35,8 @@ body {
     position:absolute;
     top: 25%; bottom: 25%; left: 0; right: 0;
     margin: auto;
+    vertical-align: center;
     
-
-
-
-
-   
  
 }
 
@@ -53,6 +50,7 @@ body {
 }
 
 p {
+    font-family: 'Roboto' sans-serif;
     font-size: 18px;
     color: #8d8d8d;
     margin-left: 10%;
@@ -77,3 +75,5 @@ p {
     text-decoration: none;
     color: #8d8d8d;
 }
+
+
